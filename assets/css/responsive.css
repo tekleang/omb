@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+/*responsive with screet devices*/
+
+/*laptop HD*/
+
+@media (min-width:1301px) and (max-width:1500px) {
+	h1{font-size: 40px;}
+	h2{font-size: 32px;}
+	/*banner home page*/
+	#content .banner-img{height: 630px;}
+	#content .carousel-caption{bottom: 20%;}
+
+	/*OVER 10 YEARS OF MEDIA ADVERTISING EXPERIENCE*/
+	#content .over .pullup{height: 400px !important;}
+	#content .over .pullup:hover .box-img{width: 100%;height: 300px;}
+
+	/*INNOVATION IN DIGITAL MEDIA ADVERTISING CONSULTING EXCELLENCE*/
+	#content .innovation .group-title h2{padding-left: 22%;padding-right: 22%;}
+	#content .innovation .box-img-text .box-img-left{width: 60px;height: 60px;}
+	#content .innovation .box-img-text .box-text p{padding-right: 20px;}
+	#content .innovation .box-img-text .box-text{margin-left: 45%;}
+
+	/*OFFICIAL MEDIA BROADCASTING BE THERE FOR YOU!*/
+	#content .offical .box-img-text .box-text{bottom: 10%;}
+	#content .offical .box-img-text .box-text h2{padding-left: 25%;padding-right: 25%;}
+
+	
+
+}
+
+
+@media (min-width:1024px) and (max-width:1300px) {
+h1{font-size: 35px;}
+h2{font-size: 28px;}
+/*sub-banner*/
+#content .sub-banner .banner-img{height: 560px;}
+
+/*contact obm page*/
+#content .targert .box-form .form-inline .box-input input{width: 285px !important;}
+#content .targert .box-form .form-inline textarea{width: 604px !important;}
+
+/*media page + home*/
+#content .activity .pullup{position: relative;}
+#content .activity .box-img-text .box-img{width: 100%;height: 238px;}
+#content .activity .box-img-text .box-text{position: absolute;color: #fff;bottom: 0px;background-color: rgba(0,0,0,0.5);}
+#content .activity .box-img-text .box-text h3{font-size: 15px;padding-left: 30px;padding-right: 30px;line-height: 20px;}
+#content .activity .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+#content .activity .pullup:hover .box-img{width: 100%;height: 238px;}
+
+/*portfolios page + home*/
+#content .over .group-over h2{padding-left: 25%;padding-right: 25%;}
+/*#content .over .col-md-3{height: 290px;}*/
+#content .over .box-img-text{position: relative;}
+#content .over .pullup:hover .box-img{height: 260px;}
+#content .over .box-img-text .box-img{height: 260px;}
+#content .over .box-img-text .box-text{width: 100%;position: absolute;color: #fff;bottom: 40.9%;background-color: rgba(0,0,0,0.5);}
+#content .over .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+
+/*about page*/
+#content .overview .box-img-text .box-text p{padding-top: 15px;}
+#content .innovation .group-title h2{padding-left: 22%;padding-right: 22%;}
+#content .innovation .add-margin{padding-top: 15%;}
+#content .innovation .box-img-text .box-img-left{width: 60px;height: 60px;}
+#content .innovation .box-img-text .box-text{margin-left: 15%;margin-top: 35%;}
+#content .innovation .box-img-text .box-text p{padding-right: 0px;}
+#content .vision{height: 360px !important;}
+#content .vision .box-img-text .box-text{padding-top: 20px;}
+#content .vision .box-img-text .box-text p{font-size: 17px !important;margin-top: 20px;}
+#content .vision .box-img-text .box-icon{padding-top: 20px !important;}
+#content .trusth .col-sm-3{height: 314px;}
+#content .trusth .pullUp{position: relative;height: 314px !important;}
+#content .trusth .box-img-text .box-img{width: 100%;height: 280px;}
+#content .trusth .box-img-text .box-text{position: absolute;bottom: 4px !important;width: 100%;background-color: rgba(0,0,0,0.5);color: #fff;}
+#content .trusth .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+#content .trusth .pullUp:hover .box-img{width: 100%;height: 280px;}
+
+/*home page*/
+#content .offical .box-img-text .box-text{bottom: 8%;}
+#content .offical .box-img-text .padpro h2{padding-left: 33% !important;padding-right: 33% !important;    margin-bottom: 3%;}
+
+
+/*footer*/
+#footer .testimonail .box-img-text{background-color: #fff;width: 104%;margin-left: 10px;}
+#footer .testimonail .box-img-text .box-icon{opacity: 1;}
+/*#footer .footer .contact ul li span:last-child{padding-left: 43px !important;margin-top: -23px !important;}*/
+#footer .footer .menu li{width: 80%;}
+}
+ 
+@media (min-width:1024px) and (max-width:1299px){}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width:768px) and (max-width:1024px)  {
+	*{overflow-x: hidden;}
+h1{font-size: 28px;}
+h2{font-size: 24px;}
+/*home page*/
+#content .over .group-over h2{padding-left: 25%;padding-right: 25%;}
+#content .over .col-md-6{height: 390px !important;}
+#content .over .box-img-text{position: relative;height: 380px;}
+#content .over .pullup:hover .box-img{height: 380px;}
+#content .over .box-img-text .box-img{height: 380px;}
+#content .over .box-img-text .box-text{width: 100%;position: absolute;color: #fff;bottom: 0%;background-color: rgba(0,0,0,0.5);}
+#content .over .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+#content .innovation .box-img-text .box-img-left{width: 50px;height: 50px;margin-left: 30%;}
+#content .innovation .add-margin{padding-top: 25%;}
+#content .innovation .box-img-text .box-text{margin-top: 40%;text-align: center;margin-left: 0px;}
+#content .innovation .box-img-text .box-text p{padding-right: 0px;margin-top: -10px;}
+#content .innovation .group-title h2{padding-left: 16%;padding-right: 16%;}
+
+#content .offical .box-img-text .box-text{margin-bottom: -2%;}
+#content .offical .box-img-text .box-text h2{padding-left: 25%;padding-right: 25%;font-size: 20px;}
+
+/*media page + home*/
+#content .activity .pullup{position: relative;}
+#content .activity .box-img-text .box-img{width: 100%;height: 238px;}
+#content .activity .box-img-text .box-text{position: absolute;color: #fff;bottom: 0px;background-color: rgba(0,0,0,0.5);}
+#content .activity .box-img-text .box-text h3{font-size: 15px;padding-left: 15px;padding-right: 15px;line-height: 20px;}
+#content .activity .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+#content .activity .pullup:hover .box-img{width: 100%;height: 238px;}
+
+/*contact page*/
+#content .targert ul li span:last-child{width: 100% !important;padding-left: 40px !important;margin-top: -27px;}
+#content .targert .col-sm-8 input{width: 215px !important;}
+#content .targert .col-sm-8 textarea{width: 458px !important;}
+
+/*about page*/
+#content .vision{height: 360px !important;}
+#content .vision .ipad{padding-top: 20px;}
+#content .vision .ipad p{font-size: 14px !important;margin-top: -30px;}
+#content .vision .box-icon{padding-top: 0px !important;}
+#content .trusth .col-sm-3{height: 314px;}
+#content .trusth .pullUp{position: relative;height: 314px;}
+#content .trusth .box-img-text .box-img{width: 100%;height: 280px;}
+#content .trusth .box-img-text .box-text{position: absolute;bottom: 4px !important;width: 100%;background-color: rgba(0,0,0,0.5);color: #fff;}
+#content .trusth .box-img-text .box-text h4{margin-bottom: 8px;margin-top: -5px;}
+#content .trusth .pullUp:hover .box-img{width: 100%;height: 280px;}
+
+/* footer */
+#footer .testimonail .mar-left{margin-left: 1px;}
+#footer .testimonail .box-img-text .box-icon{opacity: 1;}
+#footer .testimonail .box-img-text{background-color: #fff;}
+#footer .testimonail .box-img-text p{padding-left: 15px !important;padding-right: 15px !important;}
+#footer .partner .row{margin-left: 1px;}
+
+
+
+
+#footer .footer .turnoff{display: none;}
+}
+
+
+
+
+/* landscape phone */
+
+@media (min-width:480px) and (max-width:767px) {
+
+
+
+}
+
+
+
+
+
+
+
+/* Portrait phone */
+
+@media (max-width:479px) {
+
+
+
+}

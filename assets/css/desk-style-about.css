@@ -1,0 +1,50 @@
+<?php
+	/* style about */
+>
+
+/*OMB COMPANY OVERVIEW*/
+#content .overview{}
+#content .overview .group-overview{margin-top: 40px;}
+#content .overview .box-img-left{width: 570px;height: 570px;}
+#content .overview .box-img-left img{width: 100%;height: 100%;object-fit: cover;}
+#content .overview .box-img-text{padding-top: 50px;}
+#content .overview .box-img-text h3{color: #EC1F27;}
+#content .overview .box-img-text h2{padding-top: 20px;padding-right: 30%;}
+#content .overview .box-underline{justify-content: left;}
+#content .overview .box-img-text .box-text{padding-top: 15px}
+#content .overview .box-img-text .box-text p{padding-top: 35px}
+
+
+/*OUR VISION*/
+/*#content .vision{background-image: url('<?php echo $BATH_URL;?>assets/images/OMB-Advertising-Cambodia-homepage-Core-Value-03.jpg');height: 500px;width: 100%;background-repeat: no-repeat;background-size: cover;}
+*/#content .vision .group-title{padding-top: 50px;color: #fff;}
+#content .vision .group-title .box-underline .underline{background-color: #fff;}
+#content .vision .box-img-text .box-text{padding-top: 50px;color: #fff;}
+#content .vision .box-img-text .box-text p{padding-left: 20%;padding-right: 20%;text-align: center;font-size: 25px;line-height: 40px !important;}
+#content .vision .box-img-text .box-icon{display: flex;justify-content: center;padding-top: 50px;}
+#content .vision .box-img-text .box-icon img{opacity: 0.5;}
+
+/*WE ARE CORPORATED WITH MANY TELEVISION AND RADIO IN CAMBODIA*/
+#content .corporated{background-color: #F1ECF3;}
+#content .corporated .group-corporated{padding-top: 80px;padding-bottom: 40px;}
+#content .corporated .group-title h3{color: #EC1F27;}
+#content .corporated .group-title h2{padding-top: 25px;padding-left: 20%;padding-right: 20%;}
+#content .corporated .group-corporated .row{display: flex;flex-wrap: wrap;justify-content: center;}
+#content .corporated .box-img-text{overflow: hidden;width: 100%;padding-top: 30px;}
+#content .corporated .box-img-text .box-img{width: 100%;height: 100px;background-color: #fff;}
+#content .corporated .box-img-text .box-img img{width: 100%;height: 100%;object-fit: cover;}
+
+/*WE ARE KNOW, LIKE, AND TRUSTH EACHOTHER TO ACHIVE TOGETHER*/
+#content .trusth{}
+#content .trusth .group-trusth{padding-top: 40px;padding-bottom: 40px;}
+#content .trusth .group-title h3{color: #EC1F27;}
+#content .trusth .group-title h2{padding-top: 25px;padding-left: 20%;padding-right: 20%;}
+#content .trusth .group-title .box-underline .underline{margin-bottom: 50px;}
+
+#content .trusth .box-img-text{padding-top: 30px;width: 100%;overflow: hidden;}
+#content .trusth .box-img-text .box-img{width: 270px;height: 350px;transition: all 0.3s;}
+#content .trusth .box-img-text .box-img img{width: 100%;height: 100%;object-fit: cover;}
+#content .trusth .box-img-text .box-text h3{font-weight: bold;text-transform: uppercase;margin-top: 10px;}
+#content .trusth .box-img-text .box-text h4{padding-top: 15px;text-transform: uppercase;}
+#content .trusth .pullUp{overflow: hidden;height: 390px;}
+#content .trusth .pullUp:hover .box-img{width: 100%;height: 300px;}
